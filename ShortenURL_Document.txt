@@ -1,0 +1,23 @@
+Step 1
+Create new project with spring boot
+Note: Version of srping boot vs swagger
+Step 2
+Unzip the file
+Step 3
+Configurate openJDK to 19
+Step 4
+Download the dependencies: swagger, `jackson`
+Step 5
+run the image of mongoDB
+Step 6
+Create the configuration of DB in `resources` with DB'name and password, URL
+Step 7
+create health-check
+Step 8
+create model
+Steo 9
+create controller
+Step 10
+Create Docker file
+Step 11
+Deploy
