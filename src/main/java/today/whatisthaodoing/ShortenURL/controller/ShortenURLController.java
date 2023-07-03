@@ -37,6 +37,10 @@ public class ShortenURLController {
         // - get the original from the db with the key
         //      - if no key found -> 404
         //      - else implement the redirect without returning anything
+
+        if (!database.existsById(key)) {
+            return ResponseEntity.notFound().build();
+        }
         return ResponseEntity.ok().body("http://original-url.nofake/kzgd/fxg/dzgsd");
     }
 
